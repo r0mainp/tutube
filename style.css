@@ -1,0 +1,527 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+/*Header*/
+.main-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.625rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 4;
+}
+.main-fixed-black{
+    background-color: #1D1D1D;
+    box-shadow: none;
+}
+
+.main-title
+{
+    margin: 0;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.main-title-white{
+    color: white;
+}
+
+.logo{
+    margin-right: 0.5rem;
+}
+.icon-menu{
+    padding-right: 0.375rem;
+    margin-left: auto;
+}
+.comment-title{
+    font-weight: bold;
+}
+
+/*Nav bottom*/
+.navbar{
+    bottom: 0vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    align-items: center;
+}
+.navlink{
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.icon-bottom{
+    display: block;
+}
+#active{
+    color: red;
+}
+
+.click{
+    text-decoration: none;
+    width: 100%;
+    z-index: 98;
+}
+
+/*Container*/
+
+.thumbnail-container{
+    text-align: center;
+    position: relative;
+    min-width: 161px;
+}
+
+.thumbnail-container-small{
+    position: relative;
+    width:37%;
+    min-width: 161px;
+}
+.section{
+    padding: 0.5rem 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #C6C6C6;;
+}
+.section-top{
+    
+    padding-bottom: 0.5rem;
+}
+.section-bottom{
+    padding-bottom: 4.5rem;
+}
+.icon-container{
+    text-align: center;
+    clear: both;
+}
+
+.video-container{
+    padding-bottom:56.25%; 
+    position:relative; 
+}
+
+ .youtube-video{
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.video-info-container{
+    padding: 0.5rem 1rem;
+}
+.video-small{
+    display: flex;
+    align-items: flex-start;
+}
+.video-info-container-small{
+    padding-left: 0.5rem;
+}
+
+.section-comment{
+    display: block;
+    
+}
+.comment-type{
+    
+    width: 100%;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto";
+    padding: 0.5rem;
+    resize : none;
+}
+.comment-container{
+    width: 100%;
+    display:flex;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+}
+.comment-info{
+    padding-left: 0.5rem;
+}
+.btn-container-send{
+    text-align: center;
+}
+.nav-trend{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.75rem 0.625rem;
+   
+    
+}
+.trend-story-container{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.heander-channel{
+    position: relative;
+}
+.background-image-container{
+    display: block;
+     width: 100%;
+}
+.header-channel-info{
+    position: relative;
+    display: inline-block;
+    padding: 1rem 0 0 3rem;
+
+}
+.info-video-container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+    
+}
+.info-container{
+    padding-left: 0.5rem;
+}
+
+
+/*Lien*/
+.btn{
+    padding: 0.375rem 1.8125rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+}
+.btn-red{
+    background-color: #F10303;
+    
+}
+.btn-blue{
+    display: inline-block;
+    background-color: #1E88E5;
+}
+.subscribe{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    padding-right: 0.5rem;
+}
+
+/*Icon*/
+.notif-icon{
+    font-size: 1.25rem;
+    display: inline-block;
+    color: #767676;
+    padding: 0.56375em;
+
+
+}
+/*Title*/
+.video-title{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+    color: black;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 0.75rem;
+    margin: 0;
+}
+.comment-title{
+    text-align: left;
+}
+.story-title{
+    color: #777777;
+}
+
+
+/*Article*/
+.video{
+    padding: 0.5rem 0;
+}
+
+
+/*Text*/
+.info-text{
+    font-size: 0.9rem;
+    color: #777777;
+    margin: 0;
+}
+.info-text-user{
+    color: black;
+}
+.reaction-text{
+    padding-top: 0.5rem;
+}
+
+
+/*!!!!!Image!!!!!*/
+.thumbnail{
+    width: 100%;
+    border-radius: 1rem;
+}
+.thumbnail-playlist{
+    padding: 0;
+    border-radius: 0;
+    display: block;
+}
+
+.timer-container{
+    position: absolute;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    padding: 0.1875rem 0.3rem;
+    border-radius: 50px;
+    background-color: hsl(180, 0%, 0%, 0.7) ;
+    color: white;
+    font-size: 0.75rem;
+}
+.user-pic{
+    display: block;
+}
+.background-image{
+    width: 100%;
+}
+.channel-pic{
+    width: 100%;
+}
+
+/*Style menu*/
+.page-container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(180, 0%, 0%, 0.7) ;
+    z-index: 2;
+
+}
+.page{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.menu-container{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+}
+
+.border{
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid;
+}
+.border-bottom{
+    border: none;
+}
+.link-style{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-close-menu{
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    
+}
+.close-btn-font{
+    color: white;
+}
+.app-container--space{
+    padding-top: 3.5rem;
+}
+
+/*Apparition menu*/
+#ouvrir {
+
+   
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    cursor: default;
+}
+
+#ouvrir, .expandable{
+    display: none;
+}
+
+#ouvrir:checked ~ div.expandable{
+    display: block;
+}
+.icon-menu1{
+    padding-right: 0.375rem;
+    margin-left: auto;
+    z-index: 3;
+}
+label{
+    padding-right: 0.375rem;
+    margin-left: auto;
+}
+
+.section-big{
+    display:none;
+}
+
+/*media queries*/
+@media (min-width: 576px){
+    .app-container{
+            width: 560px;
+            margin: 0 auto;
+    }
+    .app-container--space{
+        padding-top: 3.5rem;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .responsive-section{
+        flex-direction: column;
+        
+    }
+    .video{
+        width: calc(50% - 1rem);
+    }
+    .video-small{
+        position: relative;
+    }
+    .thumbnail-container-small{
+        max-width: 100px;
+        min-width: 100px;
+        max-height: 59px;
+    }
+    .thumbnail-small{
+        position: relative;
+        max-width: 100px;
+        max-height: 59px;
+    }
+
+    .video-small-responsive{
+        width: 100%;
+    }
+    .section-video{
+        padding-top: 0;
+        padding: 0;
+    }
+    .video-listing{
+        margin-left:-1rem;
+    }
+    .video-listing--space{
+        margin-left: 1rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .app-container{
+        width:700px;
+        margin: 0 auto;
+        
+    }
+    .app-container--space{
+        padding-top: 3.5rem;
+    }
+
+
+
+    .video-small-responsive-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .video{
+        width: calc((100% / 3) - 1rem);
+    }
+    .video-small-responsive{
+        width: calc(50% - 64px);
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .main__video-responsive{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((2 * (100%/3)) - 1rem)
+    }
+    .main__video-responsive-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-video{
+        
+        padding: 1rem;
+
+        width: 100%;
+    }
+    .section--display{
+        display: none;
+    }
+
+    .video-small-responsive{
+        width: 100%;
+    }
+    .section{
+        flex-wrap: nowrap;
+        padding: 0.5rem;
+        width:100%;
+
+    }
+    .section-comment{
+        padding: 1rem;
+    }
+
+    .section-bottom{
+        padding: 2rem;
+    }
+
+    .app-container--space{
+        margin:  0 auto;
+        width: 920px;
+    }
+    .app-container--flex{
+        display: flex;
+        padding-top: 3.5rem;
+    }
+    .section-big{
+        display: block;
+        align-self: flex-start;
+        width: calc(100% / 3 - 1rem);
+        padding-top: 1rem;
+        
+    }
+    .section-big>.section{
+        border: none;
+    }
+}
